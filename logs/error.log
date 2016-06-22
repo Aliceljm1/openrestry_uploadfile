@@ -1,0 +1,20 @@
+2016/06/22 15:24:43 [notice] 8492#6372: using inherited sockets from "508;"
+2016/06/22 15:25:52 [notice] 14724#14132: using inherited sockets from "508;"
+2016/06/22 16:11:31 [notice] 12900#14484: using inherited sockets from "512;"
+2016/06/22 16:11:31 [notice] 14684#10244: using inherited sockets from "512;"
+2016/06/22 16:13:02 [error] 14684#11700: *3 lua entry thread aborted: runtime error: ...estrun\openresty-1.9.15-32/lua_scripts/upload_server.lua:4: module 'helper' not found:
+	no field package.preload['helper']
+	no file 'D:\testrun\openresty-1.9.15-32//helper.luac'
+	no file 'D:\testrun\openresty-1.9.15-32//helper.lua'
+	no file '.\helper.lua'
+	no file 'D:\testrun\openresty-1.9.15-32\lualib\helper.lua'
+	no file 'D:\testrun\openresty-1.9.15-32\lua\helper.lua'
+	no file 'D:\testrun\openresty-1.9.15-32\lua\helper\init.lua'
+	no file '.\helper.dll'
+	no file 'D:\testrun\openresty-1.9.15-32\lualib\helper.so'
+	no file 'D:\testrun\openresty-1.9.15-32\helper.dll'
+	no file 'D:\testrun\openresty-1.9.15-32\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	...estrun\openresty-1.9.15-32/lua_scripts/upload_server.lua:4: in function <...estrun\openresty-1.9.15-32/lua_scripts/upload_server.lua:1>, client: 127.0.0.1, server: localhost, request: "POST /upload HTTP/1.1", host: "localhost"
